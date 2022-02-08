@@ -1,0 +1,22 @@
+inactive text colour: #a8aebf
+active text colour: #5e9289
+search icon dark: https://global-uploads.webflow.com/5b03bf37af744c59477739eb/5f4dfe4f51bdfd06496cb683_searchIcn.svg
+logo dark: https://global-uploads.webflow.com/5b03bf37af744c59477739eb/5b0763f42f5ed7b0fdc9b1c8_logo.png
+
+cart
+
+/* Light [grey] colours */
+.w-commerce-commercecartopenlinkicon.carticon.light, .carttext.light.w-inline-block, .navlink_light  {
+  color: #a8aebf;
+}
+/* Dark [green] colours */
+.navlink_light.desktop_only.w-nav-link.w--current {
+  color: #5e9289 !important;
+}
+/* Portrait and Landscape */
+@media only screen and (max-width: 600px) {
+  /* Light [grey] colours */
+  .w-commerce-commercecartopenlinkicon.carticon.light, .carttext.light.w-inline-block, .navlink_light  {
+    color: #c4e2dc !important;
+  }
+}
